@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract site
-        run: unzip -q site-v8.zip -d public-site
+        run: unzip -q site-v9.zip -d public-site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
