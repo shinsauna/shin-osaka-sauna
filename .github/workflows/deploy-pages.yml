@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Prepare site
-        run: unzip -q site-v16.zip -d public-site
+        run: unzip -q site-v17.zip -d public-site
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
